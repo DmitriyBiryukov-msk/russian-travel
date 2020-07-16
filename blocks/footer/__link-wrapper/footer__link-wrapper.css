@@ -1,0 +1,20 @@
+.footer__link-wrapper {
+  display: inline-block;
+  margin: 0 15px 0 0;
+  padding: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+  .footer__link-wrapper {
+    margin-right: calc(2.3vw);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer__link-wrapper {
+    display: block;
+    margin-right: 0;
+    padding: 0;
+  }
+}

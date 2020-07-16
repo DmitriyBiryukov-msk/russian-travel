@@ -1,0 +1,39 @@
+@import url(./__title/lead__title.css);
+@import url(./__subtitle/lead__subtitle.css);
+@import url(./__image/lead__image.css);
+@import url(./__caption/lead__caption.css);
+
+.lead {
+  margin: 0 auto;
+  padding: 10px 48px 92px;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 1080px;
+
+  background-color: #2A2C2F;
+  color: #ffffff;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+ .lead {
+  padding-left: calc(18.75vw - 144px);
+  padding-right: calc(18.75vw - 144px);
+  padding-bottom: calc(76px + 1.5625vw);
+ }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: calc(46.9px + 5.357vw);
+    width: 100%;
+  }
+}
