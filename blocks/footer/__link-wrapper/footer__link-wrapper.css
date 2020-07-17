@@ -1,6 +1,7 @@
 .footer__link-wrapper {
   margin: 0 15px 0 0;
   padding: 0;
+  
 
   
   
@@ -18,5 +19,6 @@
     display: block;
     margin-right: 0;
     padding: 0;
+    width: 100%;
   }
 }
