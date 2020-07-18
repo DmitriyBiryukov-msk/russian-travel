@@ -4,21 +4,19 @@
 @import url("./__list-value/intro__list-value.css");
 
 .intro {
-  padding: 0 48px 92px;
-  margin: 0 auto;
-  max-width: 1080px;
-  box-sizing: border-box;
-
-
-  background-color: #2A2C2F;
-  color: #ffffff;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
+padding: 0 48px 92px;
+margin: 0 auto;
+max-width: 1080px;
+box-sizing: border-box;
+background-color: #2A2C2F;
+color: #ffffff;
+font-family: 'Inter', Arial, Helvetica, sans-serif;
+font-weight: 400;
+-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
 }
 
 

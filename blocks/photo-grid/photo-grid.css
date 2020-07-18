@@ -1,22 +1,21 @@
 @import url("./__image/photo-grid__image.css");
 
 .photo-grid {
-  padding: 0 0 92px;
-  max-width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 16px;
-  align-items: stretch;
-
-  background-color: #2A2C2F;
-  color: #ffffff;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
+padding: 0 0 92px;
+max-width: 100%;
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+gap: 16px;
+align-items: stretch;
+background-color: #2A2C2F;
+color: #ffffff;
+font-family: 'Inter', Arial, Helvetica, sans-serif;
+font-weight: 400;
+-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
 }
 
 

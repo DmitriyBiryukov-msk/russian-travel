@@ -6,24 +6,23 @@
 @import url("./__language-link/_active/header__language-link_active.css");
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
-  width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 28px 48px 56px;
-
-  background-color: #2A2C2F;
-  color: #ffffff;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+box-sizing: border-box;
+width: 100%;
+max-width: 1280px;
+margin: 0 auto;
+padding: 28px 48px 56px;
+background-color: #2A2C2F;
+color: #ffffff;
+font-family: 'Inter', Arial, Helvetica, sans-serif;
+font-weight: 400;
+-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
 
 }
 

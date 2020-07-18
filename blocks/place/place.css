@@ -6,27 +6,26 @@
 @import url("./__paragraph/place__paragraph.css");
 
 .place {
-  display: grid;
-  grid-template-columns: 27fr 28fr;
-  grid-template-rows: auto auto;
-  grid-auto-flow: column;
-  gap: 48px 3.125vw;
-  margin: 0;
-  padding: 0 0 80px;
-
-  background-color: #2A2C2F;
-  color: #ffffff;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
+display: grid;
+grid-template-columns: 27fr 28fr;
+grid-template-rows: auto auto;
+grid-auto-flow: column;
+gap: 48px 3.125vw;
+margin: 0;
+padding: 0 0 80px;
+background-color: #2A2C2F;
+color: #ffffff;
+font-family: 'Inter', Arial, Helvetica, sans-serif;
+font-weight: 400;
+-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
 }
 
 .place:last-child {
-  padding-bottom: 0;
+padding-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
