@@ -32,5 +32,6 @@ opacity: 0.8;
   .cover__link {
   height: 200px;
   width: 320px;
+  padding: 0;
   }
 }
