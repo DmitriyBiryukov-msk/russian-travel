@@ -1,14 +1,16 @@
 .header__logo-image {
-max-height: 52px;
-max-width: 176px;
-display: block;
+  max-height: 52px;
+  max-width: 176px;
+  display: block;
 }
 
 
 
 @media screen and (max-width: 425px) {
+
   .header__logo-image {
     width: 142px;
     height: 42px;
   }
+  
 }

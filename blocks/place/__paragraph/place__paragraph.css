@@ -1,10 +1,10 @@
 .place__paragraph {
-margin: 0 0 24px;
-padding: 0;
-font-size: 18px;
-line-height: 1.67;
-font-weight: 400;
-text-align: left;
+  margin: 0 0 24px;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.67;
+  font-weight: 400;
+  text-align: left;
 }
 
 .place__paragraph:last-child {
@@ -13,22 +13,28 @@ text-align: left;
 
 
 @media screen and (max-width: 1024px) {
+
   .place__paragraph {
     font-size: calc(10px + 0.78125vw);
     line-height: 1.62;
   }
+
 }
 
 @media screen and (max-width: 768px) {
+
   .place__paragraph {
     font-size: 16px;
     line-height: 1.63;
   }
+
 }
 
 @media screen and (max-width: 425px) {
+
   .place__paragraph {
     padding-left: 16px;
     padding-right: 16px;
   }
+  
 }
